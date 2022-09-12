@@ -5,7 +5,7 @@ import {ScrollAnimation} from "./ScrollAnimation";
 export default function Events() {
     return (
 
-<div className="text-[black] body-font h-screen flex flex-col justify-center items-center">
+<div className="text-[black] body-font flex flex-col justify-center items-center">
   <h1 className="text-[20px] laptop:text-[50px] text-center">Get involved with our upcoming events</h1>
   <div className="mobile:container px-0 py-0 laptop:container px-5 py-6 mx-auto">
     <div className="mobile:flex flex-col px-0 py-0 laptop:flex laptop:flex-row laptop:px-5 laptop:py-24 mx-auto">

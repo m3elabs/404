@@ -16,7 +16,7 @@ animation="fade-right">
 </ScrollAnimation>
 <div className='mobile:flex flex-col justify-center mt-10 mobile:space-x-0 mobile:space-y-3 laptop:flex laptop:flex-row laptop:space-x-3 laptop:space-y-0 laptop:justify-between items-center'>
 
-<div className="mobile:w-full flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-green-500 laptop:h-full w-1/3 flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-cyan-200">
+<div className="mobile:w-full flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-green-500 laptop:h-full w-1/3 flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-green-500">
 <ScrollAnimation
 animation="fade-right">
 <img className='h-[3rem]' src="education.svg"/>
@@ -32,7 +32,7 @@ One of our pillars as a DAO is to empower the next generation of technologists t
 
 
 
-<div className="mobile:w-full flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-green-500 laptop:h-full w-1/3 flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-cyan-200">
+<div className="mobile:w-full flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-green-500 laptop:h-full w-1/3 flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-green-500">
 <ScrollAnimation
 animation="fade-right">
 <img className='h-[3rem]' src="group.svg"/>
@@ -49,7 +49,7 @@ New technology breeds an obvious learning curve for those looking to upgrade the
 
 
 
-<div className="mobile:w-full flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-green-500 laptop:h-full w-1/3 flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-cyan-200">
+<div className="mobile:w-full flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-green-500 laptop:h-full w-1/3 flex flex-col items-center p-8 transition border border-gray-800 shadow-xl rounded-xl hover:shadow hover:border-green-500">
 <ScrollAnimation
 animation="fade-right">
 <img className='h-[3rem]' src="layers.svg"/>

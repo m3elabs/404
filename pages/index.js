@@ -34,10 +34,10 @@ export default function Home() {
             <About/>
            
         </div>
-        <div id="section2" className="laptop:mt-5 mobile:mt-32">
+        <div id="section2" className="my-20">
           <Events />
         </div>
-        <div id="section3" className="h-screen">
+        <div id="section3" className="laptop:screen">
           <Faqs />
         </div>
       </main>
