@@ -10,7 +10,7 @@ export default function Navbar() {
   return(
 <nav className="absolute z-20 h-[7%] w-full px-6 top-10 ">
 
-<span className="flex flex-row  flex flex-row items-center justify-between ">
+<span className="flex flex-row  flex flex-row items-center justify-around ">
 <Link to='section1' spy={true} smooth={true}>
 
 <h1 className="mobile:text-[12px] text-white rounded-full bg-black px-3 py-3 font-bold cursor-pointer hover:text-green-500 bg-opacity-80 laptop:text-[20px] laptop:px-6">
