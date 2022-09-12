@@ -37,7 +37,7 @@ export default function Home() {
         <div id="section2" className="my-20">
           <Events />
         </div>
-        <div id="section3" className="laptop:screen">
+        <div id="section3" className="">
           <Faqs />
         </div>
       </main>

@@ -11,7 +11,7 @@ export default function Faqs() {
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
           <ScrollAnimation
-animation="flip-right">
+animation="fade-down-right">
             <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
               
               Frequently Asked Questions
