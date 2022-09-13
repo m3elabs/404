@@ -10,37 +10,37 @@ export default function Footer() {
                 <div className=" border-t  border-gray-200  py-16">
                      
                             <div className="w-full flex flex-row justify-center items-center">
-                                <div className="w-1/2">
-                                    <ul>
+                                <div className="w-1/2 px-6">
+                                    <ul className='laptop:text-[20px] space-y-0 laptop:flex laptop:flex-row justify-center laptop:items-center laptop:space-x-6 mobile:flex flex-col items-center space-x-0 space-y-3'>
                                       
-                                        <li className="mt-6">
+                                        <li className="">
                                         <Link to='section1' spy={true} smooth={true}>
-                                                <a className="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">About</a>
+                                                <a className=" leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">About</a>
                                             </Link>
                                         </li>
-                                        <li className="mt-6">
+                                        <li className="">
                                         <Link to='section2' spy={true} smooth={true}>
-                                                <a className="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">Events</a>
+                                                <a className="leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">Events</a>
                                             </Link>
                                         </li>
-                                        <li className="mt-6">
+                                        <li className="">
                                         <Link to='section3' spy={true} smooth={true}>
-                                                <a className="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">Team</a>
+                                                <a className="leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">Team</a>
                                             </Link>
                                         </li>
-                                        <li className="mt-6">
+                                        <li className="">
                                         <Link to='section4' spy={true} smooth={true}>
-                                                <a className="text-xs lg:text-sm leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">FAQ</a>
+                                                <a className="leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">FAQ</a>
                                             </Link>
                                         </li>
                                     </ul>
                                 </div>
                                
                             
-                            <div className="laptop:w-1/2 flex">
+                            <div className="w-1/2">
                           
-                                <div className="laptop:w-1/2 px-6 flex flex-col justify-center ">
-                                    <div className="flex items-center justify-center mb-6">
+                                <div className="px-6 flex flex-col justify-center ">
+                                    <div className="flex items-center justify-center">
                                         <a target="blank" href="javascript:void(0)">
                                             <div className="text-gray-800 dark:text-gray-50 cursor-pointer hover:text-brand dark:hover:text-brand ">
                                                 <svg className="footer-icon feather feather-github" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
