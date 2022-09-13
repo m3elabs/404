@@ -6,8 +6,7 @@ export default function Team() {
         <div>
             <div className="container flex justify-center mx-auto">
                 <div className="mobile:flex flex-col justify-between w-screen items-center  laptop:flex flex-row justify-between w-screen items-center py-4">
-                    <p className="text-gray-500 py-6 w-full cursor-pointer w-1/3 mobile:w-screen px-6"><a href="/" >&larr; Go back</a></p>
-                    <h1 className="text-4xl text-center text-gray-800 font-extrabold pb-6 w-1/3 mobile:text-[20px] w-screen">Meet our Core Contributers</h1>
+                  <h1 className="text-4xl text-center text-gray-800 font-extrabold pb-6 w-1/3 mobile:text-[20px] w-screen">Meet our Core Contributers</h1>
                   <span className="w-1/3"></span>
                 </div>
             </div>

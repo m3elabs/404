@@ -4,6 +4,7 @@ import Events from "../components/events";
 import Faqs from "../components/faqs";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
+import Team from "../components/teampage";
 
 export default function Home() {
   return (
@@ -37,7 +38,12 @@ export default function Home() {
         <div id="section2" className="my-20">
           <Events />
         </div>
-        <div id="section3" className="">
+        <div id="section3" className="my-20">
+          <Team />
+        </div>
+
+
+        <div id="section4" className="">
           <Faqs />
         </div>
       </main>

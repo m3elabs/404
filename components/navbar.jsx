@@ -25,14 +25,14 @@ export default function Navbar() {
   </h1>
 </Link>
 
-<a href="/team">
+<Link to='section3' spy={true} smooth={true}>
 
 <h1 className="mobile:text-[12px] text-white rounded-full bg-black px-3 py-3 font-bold cursor-pointer hover:text-green-500 bg-opacity-80 laptop:text-[20px] laptop:px-6">
     Team
   </h1>
-</a>
+</Link>
 
-<Link to='section3' spy={true} smooth={true}>
+<Link to='section4' spy={true} smooth={true}>
 <h1 className="mobile:text-[12px] text-white  rounded-full bg-black px-3 py-3 font-bold cursor-pointer hover:text-green-500 bg-opacity-80 laptop:text-[20px] laptop:px-6">
          FAQs
   </h1>
