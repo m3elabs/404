@@ -57,7 +57,7 @@ animation="fade-down-right">
                 How is a DAO Governed?
                 </summary>
 
-                <span> Governance of DAO is based on completely automated self-enforcing protocols .i.e smart contracts. The governance can be either on-chain governance or off-chain governance. On-chain governance is carried out through a sequence of proposals that members vote on via the blockchain, and having more governance tokens often translates to having more voting power.
+                <span> Governance of DAO is based on completely automated self-enforcing protocols i.e. smart contracts. The governance can be either on-chain governance or off-chain governance. On-chain governance is carried out through a sequence of proposals that members vote on via the blockchain, and having more governance tokens often translates to having more voting power.
                 </span>
               </details>
               <details className="mb-4">

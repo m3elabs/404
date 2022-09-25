@@ -11,7 +11,7 @@ export default function Footer() {
                      
                             <div className="w-full flex flex-row justify-center items-center">
                                 <div className="w-1/2 px-6">
-                                    <ul className='laptop:text-[20px] space-y-0 laptop:flex laptop:flex-row justify-center laptop:items-center laptop:space-x-6 mobile:flex flex-col items-center space-x-0 space-y-3'>
+                                    <ul className='laptop:text-[20px] laptop:space-y-0 laptop:flex laptop:flex-row justify-center laptop:items-center laptop:space-x-6 mobile:flex flex-col items-center space-x-0 space-y-3 cursor-pointer'>
                                       
                                         <li className="">
                                         <Link to='section1' spy={true} smooth={true}>
