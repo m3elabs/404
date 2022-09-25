@@ -1,8 +1,43 @@
 import React from "react";
 import {ScrollAnimation} from "./ScrollAnimation";
+import { GraphQLClient } from 'graphql-request';
+import { useState, useEffect } from 'react';
 
 
 export default function About() {
+  const getContent = async () => {
+
+    const hygraph = new GraphQLClient(
+      'https://api-us-east-1.hygraph.com/v2/cl86k20g8006201ta81uj0r2z/master'
+    );
+    
+      const { descriptions } = await hygraph.request(
+        `
+        {
+          descriptions {
+            pillar1
+            pillar2
+            pillar3
+          }
+        }
+      `
+      );
+  
+      console.log(descriptions)
+  setContent(descriptions[0])
+  
+    }
+  
+  
+  const [content, setContent] = useState();
+  
+  
+  
+  useEffect(() => {
+    getContent();
+  }, []);
+
+ 
     return (
 
 <div className='p-8 laptop:h-screen flex flex-col justify-center'>
@@ -24,8 +59,7 @@ animation="fade-right">
 <h3 className="mt-4 text-xl font-bold text-[black]">Education</h3>
 
 <p className="mt-3 text-sm text-[black]">
-One of our pillars as a DAO is to empower the next generation of technologists to understand the ever expanding world of blockchain technology.<br></br><br></br>
-404 DAO was born from Georgia Tech's blockchain club and seeks to join forces with other university students looking for a blockchain community.
+  {content?.pillar1}
 </p>
 </ScrollAnimation>
 </div>

@@ -15,22 +15,22 @@ export default function Footer() {
                                       
                                         <li className="">
                                         <Link to='section1' spy={true} smooth={true}>
-                                                <a className=" leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">About</a>
+                                                <span className=" leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">About</span>
                                             </Link>
                                         </li>
                                         <li className="">
                                         <Link to='section2' spy={true} smooth={true}>
-                                                <a className="leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">Events</a>
+                                                <span className="leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">Events</span>
                                             </Link>
                                         </li>
                                         <li className="">
                                         <Link to='section3' spy={true} smooth={true}>
-                                                <a className="leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">Team</a>
+                                                <span className="leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">Team</span>
                                             </Link>
                                         </li>
                                         <li className="">
                                         <Link to='section4' spy={true} smooth={true}>
-                                                <a className="leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">FAQ</a>
+                                                <span className="leading-none hover:text-brand dark:hover:text-brand text-gray-800 dark:text-gray-50">FAQ</span>
                                             </Link>
                                         </li>
                                     </ul>
@@ -41,7 +41,7 @@ export default function Footer() {
                           
                                 <div className="px-6 flex flex-col justify-center ">
                                     <div className="flex items-center justify-center">
-                                        <a target="blank" href="javascript:void(0)">
+                                        <a target="blank" href="/">
                                             <div className="text-gray-800 dark:text-gray-50 cursor-pointer hover:text-brand dark:hover:text-brand ">
                                                 <svg className="footer-icon feather feather-github" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                                                     <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -62,11 +62,11 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="py-8 flex flex-col justify-center items-center">
-                    <Link href="/">
-                        <a>
+                   
+                        <a href='/'>
                          <img className="h-[60px]" src="logo.jpeg"/>
                         </a>
-                    </Link>
+                  
                     <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">2022 404 DAO. All Rights Reserved.</p>
                 
                 </div>

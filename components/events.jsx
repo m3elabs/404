@@ -1,9 +1,49 @@
-import React from "react";
-import {ScrollAnimation} from "./ScrollAnimation";
+import { GraphQLClient } from 'graphql-request';
+import {ScrollAnimation} from './ScrollAnimation/index'
+import { useState, useEffect } from 'react';
 
 
 export default function Events() {
+
+
+  const getContent = async () => {
+
+  const hygraph = new GraphQLClient(
+    'https://api-us-east-1.hygraph.com/v2/cl86k20g8006201ta81uj0r2z/master'
+  );
+  
+    const { liveEvents } = await hygraph.request(
+      `
+     {
+        liveEvents {
+          eventType
+          eventDetails
+          eventDateTime
+          eventName
+        }
+      }
+    `
+    );
+
+    console.log(liveEvents)
+setContent(liveEvents[0])
+
+  }
+
+
+const [content, setContent] = useState();
+
+
+
+useEffect(() => {
+  getContent();
+}, []);
+
+
+
     return (
+
+     
 
 <div className="text-[black] body-font flex flex-col justify-center items-center">
   <h1 className="text-[20px] laptop:text-[50px] text-center">Get involved with our upcoming events</h1>
@@ -19,7 +59,7 @@ animation="fade-down">
             <span className="font-medium text-lg text-gray-800 title-font leading-none">18</span>
           </div>
           <div className="flex-grow pl-6">
-            <h2 className="tracking-widest text-xs title-font font-medium text-green-500 mb-1">HACKATHON</h2>
+            <h2 className="tracking-widest text-xs title-font font-medium text-green-500 mb-1">{content?.eventType}</h2>
             <h1 className="title-font text-xl font-medium text-gray-900 mb-3">404 Hackathon</h1>
             <p className="leading-relaxed mb-5">Come join us as we host our first hackathon with over $10,000 in prize money! This event is sponsored by Chainlink and Binance</p>
             <a className="inline-flex items-center">
