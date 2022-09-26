@@ -18,7 +18,7 @@ export default function Home() {
       <main className="bg-gray-100 font-ATL">
         <Navbar />
         <div className="mobile:h-screen bg-cover bg-center bg-[url('/birdseye.jpeg')] leading-none text-[140px] laptop:text-[300px] laptop:bg-[url('/birdseye.jpeg')]">
-          <span className="text-gray-800 h-full w-full bg-gradient-to-t from-green-300 to-white bg-cover mix-blend-overlay font-bold flex flex-col justify-center items-center relative">
+          <span className="text-gray-800 h-full w-full bg-gradient-to-t from-blue-300 to-white bg-cover mix-blend-overlay font-bold flex flex-col justify-center items-center relative">
             <h1 className="laptop:hidden">
               404
               <br />

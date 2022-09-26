@@ -64,7 +64,7 @@ animation="fade-down">
       <span className="font-medium text-lg text-gray-800 title-font leading-none">{new Date(content[0].eventDateTime).toLocaleDateString("en-US", {day:'numeric'})}</span>
     </div>
     <div className="flex-grow pl-6">
-      <h2 className="tracking-widest text-xs title-font font-medium text-green-500 mb-1">{content[0].eventType}</h2>
+      <h2 className="tracking-widest text-xs title-font font-medium text-blue-300 mb-1">{content[0].eventType}</h2>
       <h1 className="title-font text-xl font-medium text-gray-900 mb-3">{content[0]?.eventName}</h1>
       <span className="title-font font-medium text-gray-900">{content[0]?.eventAddress}</span><br></br><br></br>
       <p className="leading-relaxed mb-5">{content[0]?.eventDetails}</p>
@@ -93,7 +93,7 @@ animation="fade-down">
       <span className="font-medium text-lg text-gray-800 title-font leading-none">{new Date(content[1].eventDateTime).toLocaleDateString("en-US", {day:'numeric'})}</span>
     </div>
     <div className="flex-grow pl-6">
-      <h2 className="tracking-widest text-xs title-font font-medium text-green-500 mb-1">{content[1].eventType}</h2>
+      <h2 className="tracking-widest text-xs title-font font-medium text-blue-300 mb-1">{content[1].eventType}</h2>
       <h1 className="title-font text-xl font-medium text-gray-900 mb-3">{content[1].eventName}</h1>
       <span className="title-font font-medium text-gray-900">{content[1].eventAddress}</span><br></br><br></br>
       <p className="leading-relaxed mb-5">{content[1].eventDetails}</p>
@@ -122,7 +122,7 @@ animation="fade-down">
       <span className="font-medium text-lg text-gray-800 title-font leading-none">{new Date(content[2].eventDateTime).toLocaleDateString("en-US", {day:'numeric'})}</span>
     </div>
     <div className="flex-grow pl-6">
-      <h2 className="tracking-widest text-xs title-font font-medium text-green-500 mb-1">{content[2].eventType}</h2>
+      <h2 className="tracking-widest text-xs title-font font-medium text-blue-300 mb-1">{content[2].eventType}</h2>
       <h1 className="title-font text-xl font-medium text-gray-900 mb-3">{content[2]?.eventName}</h1>
       <span className="title-font font-medium text-gray-900">{content[2]?.eventAddress}</span><br></br><br></br>
       <p className="leading-relaxed mb-5">{content[2]?.eventDetails}</p>
