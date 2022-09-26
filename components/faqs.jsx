@@ -1,5 +1,6 @@
 import React from "react"
 import {ScrollAnimation} from "./ScrollAnimation";
+import {Link} from 'react-scroll'
 
 
 
@@ -65,8 +66,8 @@ animation="fade-down-right">
                   How to join 404 DAO?
                 </summary>
 
-                <span>
-                 Reach out to a member on Twitter, Discord or in person. You can find the core team's socials on the <a href="/team" className="underline text-green-400">team</a> page.
+                <span >
+                 Reach out to a member on LinkedIn, Twitter, or Discord. You can find the core team's socials in the <Link to="section3" spy={true} smooth={true} className="cursor-pointer underline text-blue-300">team</Link> section above.
                 </span>
               </details>
 
