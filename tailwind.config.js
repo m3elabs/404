@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'ATL': ['ATL', 'sans-serif'],
+      
+    },
   
   screens: {
     'mobile': '300px',

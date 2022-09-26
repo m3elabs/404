@@ -6,7 +6,7 @@ export default function Footer() {
     const [mode, setMode] = useState("auto");
     return (
         <div className="">
-            <footer id="footer" className="relative z-50 bg-gray-100">
+            <footer id="footer" className="font-ATL relative z-50 bg-gray-100">
                 <div className=" border-t  border-gray-200  py-16">
                      
                             <div className="w-full flex flex-row justify-center items-center">
