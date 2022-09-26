@@ -74,11 +74,14 @@ animation="fade-right">
 <h3 className="mt-4 text-xl font-bold text-[black]">Collaboration</h3>
 
 <p className="mt-3 text-sm text-[black]">
-New technology breeds an obvious learning curve for those looking to upgrade their skills.<br></br><br></br>
-404 DAO's community of developers take pride in bouncing ideas between each other with a goal of solving any issues newer developers might run into.
+{content?.pillar2}
 </p>
 </ScrollAnimation>
 </div>
+
+
+{/* New technology breeds an obvious learning curve for those looking to upgrade their skills.<br></br><br></br>
+404 DAO's community of developers take pride in bouncing ideas between each other with a goal of solving any issues newer developers might run into. */}
 
 
 
@@ -91,12 +94,14 @@ animation="fade-right">
 <h3 className="mt-4 text-xl font-bold text-[black]">Incubation</h3>
 
 <p className="mt-3 text-sm text-[black]">
-Looking for the right team to help build your brillant idea?<br></br><br></br>
-Reach out in our Discord or show up to our local meetups to expose our community to your idea.
-Odds are someone is passionate about the problem you are solving and will want to join forces.
+{content?.pillar3}
 </p>
 </ScrollAnimation>
 </div>
+
+{/* Looking for the right team to help build your brillant idea?<br></br><br></br>
+Reach out in our Discord or show up to our local meetups to expose our community to your idea.
+Odds are someone is passionate about the problem you are solving and will want to join forces. */}
 
 
 </div>
