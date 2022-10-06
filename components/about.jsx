@@ -45,7 +45,8 @@ export default function About() {
 animation="fade-right">
 <h1 className="text-3xl font-bold text-center">What is 404 DAO?</h1>
 <p className="mt-4 text-center">
-404 DAO is a registered 5013(c) non-profit organization helping fund web3 projects that originate in the metro Atlanta area.
+{/* 404 DAO is a registered 5013(c) non-profit organization helping fund web3 projects that originate in the metro Atlanta area. */}
+404 DAO is an organization helping educate, collaborate, and advance Web3 in Atlanta
 </p>
 
 </ScrollAnimation>

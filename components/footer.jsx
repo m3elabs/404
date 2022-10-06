@@ -51,7 +51,7 @@ export default function Footer() {
                                             <img className="w-[30px]" src='twitter.svg' />
                                             </div>
                                         </a>
-                                        <a target="blank" href="/">
+                                        <a target="blank" href="https://discord.gg/v6GUGVqtvV">
                                             <div className="pl-4">
                                               <img className="w-[30px]" src='discord.svg' />
                                             </div>

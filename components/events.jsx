@@ -72,7 +72,7 @@ animation="fade-down">
       {content[0].eventBrite === null ? ("") : (
        <span className="flex-grow flex flex-col">
           <a href={"" + content[0]?.eventBrite }  
-     target="blank" className="title-font font-medium text-gray-900 underline">More Information</a>
+     target="blank" className="title-font font-medium text-gray-900 underline">More Information Here</a>
         </span>
       )}
       </a>
@@ -101,7 +101,7 @@ animation="fade-down">
       {content[1].eventBrite === null ? ("") : (
        <span className="flex-grow flex flex-col">
           <a href={"" + content[1].eventBrite} 
-     target="blank" className="title-font font-medium text-gray-900 underline">More Information</a>
+     target="blank" className="title-font font-medium text-gray-900 underline">More Information Here</a>
         </span>
       )}
       </a>
@@ -130,7 +130,7 @@ animation="fade-down">
       {content[2].eventBrite === null ? ("") : (
        <span className="flex-grow flex flex-col">
           <a href={"" + content[2].eventBrite} 
-     target="blank" className="title-font font-medium text-gray-900 underline">More Information</a>
+     target="blank" className="title-font font-medium text-gray-900 underline">More Information Here</a>
         </span>
          )}
       </a>

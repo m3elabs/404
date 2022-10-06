@@ -25,7 +25,7 @@ animation="fade-down-right">
           </div>
           <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             <div className="w-full lg:w-1/2 px-4 py-2">
-              <details className="mb-4">
+              {/* <details className="mb-4">
                 <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4">
                  What is a DAO?
                 </summary>
@@ -52,25 +52,25 @@ animation="fade-down-right">
                 A smart contract is code that runs “on top” of a blockchain that executes when particular conditions are met. They can make decisions, distribute profits, and carry out other tasks. 
                 </span>
               </details>
-            
+            */}
+              
               <details className="mb-4">
                 <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                How is a DAO Governed?
+                  How can I join 404 DAO?
                 </summary>
-
-                <span> Governance of DAO is based on completely automated self-enforcing protocols i.e. smart contracts. The governance can be either on-chain governance or off-chain governance. On-chain governance is carried out through a sequence of proposals that members vote on via the blockchain, and having more governance tokens often translates to having more voting power.
-                </span>
-              </details>
-              <details className="mb-4">
-                <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                  How to join 404 DAO?
-                </summary>
-
                 <span >
-                 Reach out to a member on LinkedIn, Twitter, or Discord. You can find the core team's socials in the <Link to="section3" spy={true} smooth={true} className="cursor-pointer underline text-blue-300">team</Link> section above.
+                  <u><a href="https://discord.gg/v6GUGVqtvV" target="blank">Reach out in our discord!</a></u>
                 </span>
               </details>
 
+              <details className="mb-4">
+                <summary className="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                What is Web3 ATL and how does it relate to 404 DAO?
+                </summary>
+                <span> 
+                  Web3 ATL is a conference geared towards advancing the blockchain space in Atlanta, which directly supports 404 DAOs mission and goals. <u><a href="https://www.web3atl.io">Check out our website for more information!</a></u>
+                </span>
+              </details> 
             </div>
           </div>
         </div>

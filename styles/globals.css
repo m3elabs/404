@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family:'ATL';
+  font-family:'Courier New';
   src: url("../public/SouthAtlanta.otf");
 }
