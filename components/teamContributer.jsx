@@ -18,15 +18,15 @@ export default function Contributers (info) {
                                     <p className="text-center text-gray-600 text-base pt-3 font-normal">{info.contributer?.bio}</p>
                                     <div className="w-full flex justify-center pt-5 pb-5">
                                      
-                                    <a href="/" className="mx-5">
+                                    <a href={info.contributer?.linkedIn} target="blank"  className="mx-5">
                                             <div>
                                             <img src="/linkedin.svg"/>
                                             </div>
                                         </a>
                                         
                                         {info.contributer?.twitter === null ? ("") : (
-                                       
-                                        <a href="/" className="mx-5">
+                                    
+                                        <a href={info.contributer?.twitter} target="blank" className="mx-5">
                                             <div>
                                               <img src="/twitter.svg" />
                                             </div>
@@ -36,7 +36,7 @@ export default function Contributers (info) {
                                         }
                                         
                                         {info.contributer?.github === null ? ("") : (
-                                        <a href="/" className="mx-5">
+                                        <a href={info.contributer?.github} target="blank" className="mx-5">
                                             <div>
                                             <img src="/github.svg" />
                                             </div>
